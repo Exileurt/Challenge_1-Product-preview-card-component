@@ -10,9 +10,11 @@
     <body>
         <header>
             <div id="Main">
-                <div id="Image">
-                    <img src="images/image-product-desktop.jpg" alt="Perfume">
-                </div>
+                <Picture id="Image">
+                        <source srcset="images/image-product-mobile.jpg" media="(max-width: 375px)">
+                        <source srcset="images/image-product-desktop.jpg" media="(max-width: 1440px)">
+                        <img src="images/image-product-desktop.jpg" alt="perfume">
+                </Picture>
                 <div>
                     <H2>PERFUME</H2>
                     <H1>Gabrielle Essence Eau De Parfum</H1>
